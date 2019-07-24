@@ -1,0 +1,17 @@
+<html>
+    <head>
+        
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2 class="hi">Reverser</h2>
+       <form method="post" action="/results">
+           <label for="word">What word do you want to reverse? </label>
+           <input type="text" name="word">
+           <input type='submit'>
+       </form> 
+        {% block content %}{% endblock %}
+        
+    </body>
+    
+</html>
